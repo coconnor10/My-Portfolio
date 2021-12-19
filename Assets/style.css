@@ -9,6 +9,14 @@ body {
   background-image: url(https://media.cntraveler.com/photos/5b33f5684a6af27a73787ccb/16:9/w_2560,c_limit/Wicklow-Mountains-National-Park_GettyImages-148586706.jpg);
 }
 
+footer {
+  padding: 2rem;
+  text-align: center;
+  background: #224420;
+  color: #fff;
+  padding-bottom: 3rem;
+}
+
 h2 {
   border-bottom: 0.3rem solid #224420;
 }
@@ -23,6 +31,7 @@ header {
 nav {
   display: flex;
   background-color: #84b684;
+  border-bottom: solid #224420;
 }
 
 nav a {
@@ -36,35 +45,23 @@ main {
   background-color: rgb(169, 169, 169, 0.6);
 }
 
-aside {
-  flex: 1;
-  background-color: #b9c6ae;
-  padding: 20px;
-}
-
 section {
   flex: 3;
   padding: 2rem;
   padding-bottom: 4rem;
 }
 
-footer {
-  padding: 2rem;
-  text-align: center;
-  background: #224420;
-  color: #fff;
-  padding-bottom: 3rem;
-}
-
 /* classes */
-.a-c {
-  text-align: center;
+.button {
+  padding: 1rem;
+  width: fit-content;
+  background-color: #224420;
+  color: #fff;
 }
 
-.c-link {
-  padding: 1rem;
-  border: solid #224420;
-  width: fit-content;
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .mypic {
@@ -77,15 +74,32 @@ footer {
 }
 
 .navlink:hover {
-  background-color: #224420;
+  background-color: rgb(34, 68, 32);
   -moz-box-shadow: 0 0 1rem #fff;
   -webkit-box-shadow: 0 0 1rem #fff;
   box-shadow: 0px 0px 1rem #fff;
-  border-radius: 1rem;
 }
 
 .pad {
   padding-right: 6rem;
+}
+
+.pic {
+  position: relative;
+  display: inline-block;
+}
+
+.pic .text {
+  position: absolute;
+  z-index: 999;
+  padding: 1rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 40%;
+  background: rgba(34, 68, 32, 0.8);
+  color: #fff;
+  width: 60%;
 }
 
 .sections {
@@ -98,13 +112,17 @@ footer {
 .work {
   height: 20rem;
   width: auto;
+  border-radius: 1rem;
 }
 
 .work:hover {
-  box-shadow: 0 0 1rem chartreuse;
-  -moz-box-shadow: 0 0 1rem chartreuse;
-  -webkit-box-shadow: 0 0 1rem chartreuse;
-  border-radius: 0.5rem;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
 }
 
 /* Media Query */
@@ -120,7 +138,7 @@ footer {
 
   /*change my picture size */
   .mypic {
-    width: 3rem;
+    width: 4rem;
     height: auto;
   }
 
@@ -133,5 +151,14 @@ footer {
     text-align: center;
     background: #224420;
     color: #fff;
+  }
+
+  .work {
+    height: 15rem;
+    width: auto;
+  }
+
+  .button {
+    align-items: center;
   }
 }
