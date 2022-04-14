@@ -9,6 +9,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   background-image: url(https://media.cntraveler.com/photos/5b33f5684a6af27a73787ccb/16:9/w_2560,c_limit/Wicklow-Mountains-National-Park_GettyImages-148586706.jpg);
+  background-size: cover;
 }
 
 footer {
