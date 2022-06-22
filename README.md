@@ -13,4 +13,4 @@ This is my first "go" at creating my own porfolio website from scratch as an ass
 ## Links to Application
 
 - Here is the link: [coconnor10/My-Portfolio] (https://github.com/coconnor10/My-Portfolio)
-- Here is the pages: [coconnor10/pages] (https://coconnor10.github.io/My-Portfolio/)
+- Here is the deploy page: [coconnor10/pages] (https://coconnor10.github.io/My-Portfolio/)
