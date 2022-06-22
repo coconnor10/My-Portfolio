@@ -67,6 +67,11 @@ section {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+
 .mypic {
   border-radius: 50%;
   width: 10rem;
