@@ -6,6 +6,8 @@ This is my portfolio website which describes myself and shows the work I have co
 
 This is my first "go" at creating my own porfolio website from scratch as an assignment for coding bootcamp. I plan to continue working on this as my skills evolve.
 
+My portfolio now includes a link to download my most current Resume.
+
 ## Screenshot
 
 ![My portfolio website includes a navigation bar, a header image, screenshot images of my work, and links for various contact information.](./images/screenshot.png)
